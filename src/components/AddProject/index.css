@@ -1,0 +1,86 @@
+.project-heading {
+  font-family: "Roboto";
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+.input-width {
+  height: 30px;
+  width: 25%;
+  margin-left: -110px;
+}
+.desc-width {
+  height: 100px;
+  width: 25%;
+  margin-left: -110px;
+}
+.label-title {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: black;
+  text-align: left;
+  margin-left: -301px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.label-title1 {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: black;
+  text-align: left;
+  margin-left: -309px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.label-title2 {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: black;
+  text-align: left;
+  margin-left: -315px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.add-btn {
+  display: flex;
+  background-color: #fdc435;
+  align-self: center;
+  font-family: "Roboto";
+  font-weight: bold;
+  height: 40px;
+  width: 70px;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 140px;
+  margin-top: 15px;
+  border-color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.add-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .input-width,
+  .desc-width {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  .label-title,
+  .label-title1,
+  .label-title2 {
+    margin-left: 0;
+  }
+
+  .add-btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
